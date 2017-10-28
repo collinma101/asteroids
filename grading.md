@@ -26,9 +26,9 @@
 |     10 |     10 | Documentation.md file is complete and descriptive. |
 |        |        | **Deductions** | | |
 |      0 |    -10 | Coding Standards   |
-|      0 |    -10 | Project does not use .gitignore effectively    |
+|    -10 |    -10 | Project does not use .gitignore effectively    |
 |      0 |    -10 | Project is late    |
-|    191 | **195**| **Total Score**    |
+|    181 | **195**| **Total Score**    |
 
 Feedback:
 - The movement feels really floaty - in a good way!
@@ -36,3 +36,5 @@ Feedback:
 - second level asteroids often move in the opposite direction of their parent
 - Above and Beyond list should also include: restart game and use of canvas
 - EXCELLENT WORK!
+- Because the .gitignore was added ::after:: the files were already versioned, they continue to be tracked. (case in point, open your project, run it, and then run `git status` to see all of the changes that the .gitignore would have ignored...)
+https://stackoverflow.com/questions/19663093/apply-gitignore-on-an-existing-repository-already-tracking-large-number-of-files
